@@ -5,6 +5,13 @@ body {
   flex-direction: column;
 }
 
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 35px;
+  text-align: center;
+}
+
 button {
   background-color: #3882f6;
   border-radius: 8px;
@@ -17,10 +24,10 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 25px;
 }
 
 .headerlinks {
-  list-style: none;
   display: flex;
   gap: 16px;
 }
@@ -32,6 +39,7 @@ button {
 
 .hero {
   display: flex;
+  padding-bottom: 50px;
 }
 
 .herotext {
@@ -50,10 +58,36 @@ button {
   margin-right: auto;
 }
 
+.imgtext {
+  max-width: 150px;
+  color: #1f2937;
+  font-style: light italic;
+}
+
 .headerlinks,
 .herosecondary {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.informationheader {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+  text-align: center;
+}
+
+.infoimglist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoimg {
+  width: 150px;
+  border-style: groove;
+  border-color: #3882f6;
+  border-radius: 8px;
 }
 
 .header,
