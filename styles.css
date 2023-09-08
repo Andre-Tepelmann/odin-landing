@@ -30,10 +30,24 @@ button {
   color: #f9faf8;
 }
 
+.hero {
+  display: flex;
+}
+
+.herotext {
+  margin-left: auto;
+}
+
 .heromain {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
+}
+
+.heroimg {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headerlinks,
