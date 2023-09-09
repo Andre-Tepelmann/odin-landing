@@ -44,11 +44,12 @@ button {
 
 .herotext {
   margin-left: auto;
+  max-width: 430px;
 }
 
 .heromain {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   color: #f9faf8;
 }
 
@@ -61,7 +62,6 @@ button {
 .imgtext {
   max-width: 150px;
   color: #1f2937;
-  font-style: light italic;
 }
 
 .headerlinks,
@@ -72,7 +72,7 @@ button {
 
 .informationheader {
   font-size: 36px;
-  font-weight: extra-bold;
+  font-weight: bold;
   color: #1f2937;
   text-align: center;
 }
@@ -81,6 +81,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 65px;
 }
 
 .infoimg {
@@ -88,6 +89,34 @@ button {
   border-style: groove;
   border-color: #3882f6;
   border-radius: 8px;
+}
+
+.quotesection {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding-bottom: 100px;
+  align-content: center;
+  justify-content: center;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.quotetext {
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  padding: 100px 340px 0px 340px;
+}
+
+.quotename {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 400px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .header,
