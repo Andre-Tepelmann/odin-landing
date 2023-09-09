@@ -18,6 +18,12 @@ button {
   color: white;
   padding: 7px 24px;
   border-style: none;
+  box-shadow: 10px;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .header {
@@ -124,10 +130,38 @@ button {
   font-weight: bold;
 }
 
+.action {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 850px;
+  height: 120px;
+  margin: 70px auto;
+  display: flex;
+}
+
+.actiontxt1 {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.actiontxt2 {
+  margin-left: 80px;
+  margin-top: -10px;
+}
+
+.signbtn {
+  align-self: center;
+  border-color: #f9faf8;
+  border-style: groove;
+  margin-left: 130px;
+}
+
 .footer {
   color: #f9faf8;
   padding-top: 20px;
   text-align: center;
+  margin-top: auto;
 }
 
 .footertext {
