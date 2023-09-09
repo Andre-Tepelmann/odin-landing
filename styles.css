@@ -65,19 +65,10 @@ button:hover {
   margin-right: auto;
 }
 
-.imgtext {
-  max-width: 150px;
-  color: #1f2937;
-}
-
 .headerlinks,
 .herosecondary {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.information {
-  flex-grow: 1;
 }
 
 .informationheader {
@@ -92,6 +83,9 @@ button:hover {
   justify-content: center;
   align-items: center;
   margin-bottom: 65px;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .infoimg {
@@ -99,6 +93,11 @@ button:hover {
   border-style: groove;
   border-color: #3882f6;
   border-radius: 8px;
+}
+
+.imgtext {
+  max-width: 150px;
+  color: #1f2937;
 }
 
 .quotesection {
